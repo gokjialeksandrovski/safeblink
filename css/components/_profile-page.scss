@@ -1,0 +1,387 @@
+.profile-page {
+  animation-timing-function: ease-out;
+  animation-duration: 500ms;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.profile-title {
+  padding: 100px 0;
+
+  @media screen and (max-width: 1080px) {
+    text-align: center;
+    h1 {
+      padding-top: 150px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    h1 {
+      padding-top: 0;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+}
+
+.profile-person {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1080px) {
+    justify-content: center;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 20px;
+  }
+}
+
+.profile-image {
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+  width: 356px;
+  height: 360px;
+  border-radius: 40px;
+  background: url("../images/Discussion\ board\ page/person 1.png");
+  background-position: 40% 0%;
+  @media screen and (max-width: 1080px) {
+    margin-bottom: 100px;
+  }
+  @media screen and (max-width: 425px) {
+    margin-bottom: 50px;
+  }
+}
+
+.profile-info-container {
+  display: flex;
+  @media screen and (max-width: 1480px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+  }
+}
+
+.profile-info-1,
+.profile-info-2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+
+  label {
+    height: 24px;
+    width: 295px;
+
+    &:not(:first-of-type) {
+      margin-top: 8px;
+    }
+  }
+}
+.profile-info-2 {
+  margin-left: 32px;
+  @media screen and (max-width: 1480px) {
+    margin-left: 0;
+  }
+}
+
+.profile-info-input-container {
+  width: 486px;
+  margin-top: 8px;
+  position: relative;
+  height: 56px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1800px) {
+    width: 380px;
+  }
+  @media screen and (max-width: 1480px) {
+    width: 486px;
+  }
+  @media screen and (max-width: 1080px) {
+    margin-bottom: 32px;
+    width: 0;
+    width: 100%;
+  }
+
+  &:hover {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  &:hover .change-profile-info {
+    display: block;
+  }
+
+  input {
+    background: transparent;
+    padding-left: 16px;
+  }
+  button {
+    display: none;
+    background: rgba(153, 70, 243, 1);
+    border-radius: 8px;
+    border: 2px solid rgba(203, 120, 293, 1);
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 100%;
+    padding: 0px 28px;
+    font-size: 20px;
+
+    @media screen and (max-width: 1800px) {
+      padding: 0 14px;
+    }
+    @media screen and (max-width: 1480px) {
+      padding: 0 28px;
+    }
+    @media screen and (max-width: 425px) {
+      padding: 0;
+      width: 100%;
+      font-size: 18px;
+    }
+  }
+}
+
+.gender-input {
+  @media screen and (max-width: 1080px) {
+    margin-bottom: 0;
+  }
+}
+
+.profile-info-input-container.editing {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgb(165, 88, 248);
+  border-radius: 8px;
+  color: rgba(21, 35, 71, 1);
+}
+
+.profile-info-input-container .confirm-edit,
+.profile-info-input-container .cancel-edit {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  padding: 0;
+  &:hover {
+    background: none;
+    cursor: pointer;
+  }
+  position: absolute;
+  transform: translate(-50%);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-info-input-container .confirm-edit {
+  left: 90%;
+  color: rgba(131, 234, 177, 1);
+}
+.profile-info-input-container .cancel-edit {
+  left: 95%;
+  color: rgb(165, 88, 248);
+}
+
+.profile-track-progress {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 100px 0;
+
+  p {
+    font-weight: 700;
+    @media screen and (max-width: 1080px) {
+      font-size: 38px;
+      margin-bottom: 16px;
+    }
+    @media screen and (max-width: 745px) {
+      font-size: 30px;
+    }
+    @media screen and (max-width: 425px) {
+      font-size: 26px;
+    }
+  }
+  span {
+    font-weight: 500;
+    @media screen and (max-width: 1080px) {
+      font-size: 30px;
+      margin-bottom: 16px;
+    }
+    @media screen and (max-width: 745px) {
+      font-size: 24px;
+    }
+    @media screen and (max-width: 425px) {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 20px;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 50px 0;
+  }
+}
+
+.profile-progress-bar {
+  height: 8px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 69.79%
+  );
+  border-radius: 4px;
+  background: linear-gradient(
+      0deg,
+      rgba(218, 218, 218, 0.5),
+      rgba(218, 218, 218, 0.5)
+    ),
+    linear-gradient(
+      180deg,
+      rgba(75, 124, 243, 0.2) 0%,
+      rgba(131, 234, 177, 0.2) 100%
+    );
+  margin-bottom: 100px;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  @media screen and (max-width: 425px) {
+    margin-bottom: 50px;
+  }
+}
+
+.progress-bar-green {
+  width: 568px;
+  background: rgba(131, 234, 177, 1);
+  height: 8px;
+  border: 3px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0) 40.94%
+  );
+  border-radius: 4px;
+  box-shadow: 0px 2px 16px 0px rgba(131, 234, 177, 0.8);
+  @media screen and (max-width: 1080px) {
+    width: 20%;
+  }
+}
+
+.profile-progress-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 32px;
+  @media screen and (max-width: 768px) {
+    gap: 16px;
+    padding: 0 20px;
+  }
+}
+
+.profile-badge {
+  display: none;
+  box-shadow: 0px 3px 12px 0px rgba(66, 53, 107, 0.3);
+  width: 220.3px;
+  height: 184px;
+  border-radius: 16px;
+  border: 2px solid;
+  border-image-source: linear-gradient(
+      180deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 66.04%
+    ),
+    linear-gradient(
+      360deg,
+      rgba(66, 53, 107, 0.3) 4.53%,
+      rgba(66, 53, 107, 0) 12.5%
+    );
+  box-shadow: 0px 16px 16px 0px rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0.36) 69.79%
+  );
+
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    width: 190px;
+    height: 162px;
+  }
+  @media screen and (max-width: 435px) {
+    width: 182px;
+    height: 154px;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @media screen and (max-width: 768px) {
+      top: 38%;
+      width: 60px;
+      height: 60px;
+    }
+
+    @media screen and (max-width: 435px) {
+      width: 52px;
+      height: 52px;
+    }
+  }
+
+  p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    @media screen and (max-width: 768px) {
+      top: 76%;
+      text-wrap: nowrap;
+      line-height: 20px;
+    }
+  }
+
+  // &:not(:first-of-type) {
+  //   margin-left: 32px;
+  // }
+}
+
+//show 'Се придружи' badge
+.profile-badge-1 {
+  display: block;
+}

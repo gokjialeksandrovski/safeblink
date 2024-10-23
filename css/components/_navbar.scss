@@ -1,0 +1,374 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0%;
+  z-index: 1000;
+  padding: 20px 88px;
+  color: #42356b;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  width: 100%;
+
+  background: linear-gradient(90deg, #d8e6f2 0%, #b5e3be 100%);
+
+  border: 2px solid #ffffff66;
+  box-shadow: 0px 8px 24px 0px #42356b14;
+
+  @media screen and (max-width: 1132px) {
+    padding: 20px 28px;
+  }
+
+  @media screen and (max-width: 1098px) {
+    padding: 20px 22px;
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 958px) {
+    padding: 12px 16px;
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 936px) {
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px 22px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 12px 16px;
+    position: relative;
+  }
+}
+
+.logo {
+  img {
+    width: 114.69px;
+    height: 88px;
+  }
+}
+
+.nav-links {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  height: 48px;
+  width: 615px;
+  margin-left: -200px;
+
+  @media screen and (max-width: 1572px) {
+    margin-left: -100px;
+  }
+
+  @media screen and (max-width: 1420px) {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 936px) {
+    font-size: 18px;
+  }
+
+  li {
+    padding: 8px 0px;
+    a {
+      text-wrap: nowrap;
+    }
+    &:hover {
+      color: #ffffff;
+    }
+
+    @media screen and (max-width: 1498px) {
+      &:not(:first-of-type) {
+        margin-left: 40px;
+      }
+    }
+
+    @media screen and (max-width: 1190px) {
+      &:not(:first-of-type) {
+        margin-left: 20px;
+      }
+    }
+  }
+  @media screen and (max-width: 1424px) {
+    margin-left: 82.31px;
+  }
+
+  @media screen and (max-width: 1498px) {
+    width: auto;
+  }
+
+  @media screen and (max-width: 1098px) {
+    margin-left: 41.155px;
+  }
+
+  @media screen and (max-width: 936px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // for tablets and phones
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+#signInPage header nav .nav-links {
+  @media screen and (max-width: 936px) {
+    margin-right: auto;
+  }
+}
+
+.nav-sign-in {
+  display: flex;
+  margin-top: 24px;
+  height: 40px;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
+
+  // for tablets and phones
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+  @media screen and (max-width: 1420px) {
+    margin-right: 100px;
+    .sign-in,
+    .mk-al {
+      margin-right: 20px;
+    }
+  }
+  @media screen and (max-width: 1132px) {
+    margin-right: auto;
+  }
+  @media screen and (max-width: 1296px) {
+    .sign-in,
+    .mk-al {
+      margin-right: 20px;
+    }
+  }
+  @media screen and (max-width: 936px) {
+    margin-left: auto;
+    margin-right: 100px;
+  }
+}
+
+#signInPage header nav .nav-sign-in {
+  @media screen and (max-width: 936px) {
+    margin-right: auto;
+  }
+}
+#signInPage header nav {
+  @media screen and (max-width: 936px) {
+    padding-right: 0;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 12px 16px;
+  }
+}
+
+.sign-in,
+.sign-in-2 {
+  text-wrap: nowrap;
+  display: flex;
+  width: 149px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 16px;
+  border: 1.6px solid #42356b;
+  border-radius: 10px;
+  margin-right: 40px;
+
+  img {
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    width: 91px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &:hover {
+    border: 2px solid #ffffff;
+  }
+
+  @media screen and (max-width: 1098px) {
+    width: auto;
+  }
+}
+.sign-in {
+  position: relative;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.mk-al {
+  margin-right: 40px;
+  text-wrap: nowrap;
+  span:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1098px) {
+    width: auto;
+  }
+  @media screen and (max-width: 936px) {
+    display: none;
+  }
+}
+
+.search-icon {
+  cursor: pointer;
+  @media screen and (max-width: 936px) {
+    display: none;
+  }
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  width: 24px;
+  height: 18px;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    align-self: center;
+  }
+}
+
+//Mobile and phone overlay
+.hamburger-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  color: #42356b;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  background-color: rgba(131, 234, 177, 1);
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  font-size: 30px;
+}
+
+.nav-links-2,
+.nav-sign-in-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links-2 {
+  width: 100%;
+  align-items: center;
+  li {
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  li:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+}
+
+.nav-sign-in-2 {
+  margin-top: 30px;
+}
+
+.sign-in-2 {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  width: auto;
+  text-align: center;
+
+  justify-content: space-between;
+  margin: 0 auto;
+
+  button {
+    font-weight: 700;
+    width: auto;
+    padding: 0;
+    font-size: 30px;
+  }
+}
+
+.mk-al-2 {
+  display: flex;
+  margin-right: 0;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  span:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+
+.search-icon-2 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.nav-profile-pic {
+  background: url("../images/Discussion\ board\ page/person 1.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border: 1.6px solid rgba(66, 53, 107, 1);
+  border-radius: 50%;
+  padding: 0;
+  &:hover {
+    border: 2px solid #ffffff;
+  }
+}
+
+.nav-dropdown {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.8) 100%
+    );
+  text-align: center;
+
+  backdrop-filter: blur(10px);
+  border: none !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  border-radius: 8px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 140%;
+  left: -64%;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.5);
+    background: #42356b;
+  }
+}
+
+.sign-in-2 .nav-dropdown {
+  top: 6%;
+  left: 130%;
+}

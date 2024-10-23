@@ -1,0 +1,229 @@
+.landing-video {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 133.3px;
+  position: relative;
+
+  video {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 958px) {
+    padding-top: 117px;
+  }
+
+  @media screen and (max-width: 936px) {
+    padding-top: 133.4px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+  }
+}
+#playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  img {
+    margin: 0 auto;
+
+    @media screen and (max-width: 1080px) {
+      width: 90%;
+    }
+
+    @media screen and (max-width: 900px) {
+      width: 82%;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 500px) {
+      width: 65%;
+    }
+  }
+}
+
+.landing-page .landing-title {
+  padding-top: 150px;
+
+  h1 {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 100px;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding-top: 50px;
+  }
+}
+
+.landing-cards {
+  display: flex;
+  padding-top: 150px;
+
+  @media screen and (max-width: 1080px) {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0 16px;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin: 0 16px;
+  }
+}
+
+.landing-card {
+  font-weight: 700;
+  line-height: 32px;
+  color: #152347;
+  background: rgba(153, 70, 243, 0.4);
+
+  border-radius: 16px;
+  padding: 40px;
+  width: 33.3333333%;
+
+  &:nth-of-type(2) {
+    background: rgba(75, 124, 243, 0.4);
+    margin-left: 32px;
+  }
+  &:last-of-type {
+    background: rgba(131, 234, 177, 0.4);
+    margin-left: 32px;
+  }
+
+  @media screen and (max-width: 1507px) {
+    padding: 24px;
+    &:nth-of-type(2),
+    &:last-of-type {
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 1080px) {
+    &:nth-of-type(2),
+    &:last-of-type {
+      margin-left: 0;
+      margin-top: 24px;
+    }
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    &:nth-of-type(2),
+    &:last-of-type {
+      margin-top: 16px;
+    }
+  }
+}
+
+.landing-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    width: 81%;
+    font-size: 32px;
+    line-height: 48px;
+
+    @media screen and (max-width: 1756px) {
+      font-size: 28px;
+      line-height: 44px;
+    }
+    @media screen and (max-width: 1507px) {
+      font-size: 25px;
+      line-height: 41px;
+    }
+    @media screen and (max-width: 1182px) {
+      font-size: 22px;
+      line-height: 38px;
+    }
+    @media screen and (max-width: 1080px) {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  img {
+    @media screen and (max-width: 1507px) {
+      width: 70px;
+      height: 70px;
+    }
+
+    @media screen and (max-width: 1080px) {
+      width: 80px;
+      height: 80px;
+    }
+    @media screen and (max-width: 445px) {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+
+.first-card-img {
+  @media screen and (max-width: 1507px) {
+    height: 60px !important;
+  }
+
+  @media screen and (max-width: 1080px) {
+    height: 70px !important;
+  }
+
+  @media screen and (max-width: 445px) {
+    height: 60px !important;
+  }
+}
+
+.landing-card-text,
+.landing-card-button {
+  margin-top: 32px;
+  @media screen and (max-width: 1507px) {
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 1080px) {
+    margin-top: 24px;
+  }
+}
+
+.landing-card-text {
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.landing-card-button {
+  font-size: 22px;
+  color: #42356b;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 8px;
+  background: #ffffff66;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 29.17%
+  );
+  box-shadow: 0px 8px 16px 0px #42356b1a;
+  width: 100%;
+  padding: 8px 0;
+
+  @media screen and (max-width: 1182px) {
+    font-size: 18px;
+  }
+
+  &:hover {
+    color: #fffffff6;
+    background: #152347;
+  }
+}

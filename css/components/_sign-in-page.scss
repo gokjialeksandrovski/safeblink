@@ -1,0 +1,416 @@
+.sign-in-page {
+  font-weight: 500;
+  font-size: 18.97px;
+  line-height: 25.29px;
+  color: #152347;
+  color: #ffffff;
+  padding-bottom: 100px;
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    position: static;
+  }
+}
+
+.sign-in-title {
+  max-width: 747px;
+  max-height: 88px;
+}
+.sign-in-image-2 {
+  display: none;
+
+  @media screen and (max-width: 1080px) {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    margin-top: -9px !important;
+    justify-content: center;
+    align-items: center;
+    padding-top: 125.4px;
+  }
+
+  @media screen and (max-width: 768px) {
+    background-color: #74a2a1;
+    box-shadow: -1px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  }
+  @media screen and (max-width: 425px) {
+    background: none;
+    box-shadow: none;
+  }
+}
+
+.img-tablet {
+  padding-top: 8px;
+
+  @media screen and (max-width: 425px) {
+    display: none;
+  }
+}
+
+.img-phone {
+  display: none;
+  @media screen and (max-width: 425px) {
+    display: block;
+  }
+}
+
+.sign-in-image {
+  max-width: 615.66px;
+  max-height: 551px;
+  position: absolute;
+  top: 50%;
+  left: calc(15.5% + 976px);
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  @media screen and (max-width: 1694px) {
+    top: 60.5%;
+    left: calc(15.5% + 910px);
+    width: 90%;
+    height: 90%;
+  }
+  @media screen and (max-width: 1584px) {
+    width: 75%;
+    height: 75%;
+    left: calc(15.5% + 866px);
+  }
+  @media screen and (max-width: 1530px) {
+    left: calc(15.5% + 816px);
+  }
+  @media screen and (max-width: 1480px) {
+    left: calc(16% + 806px);
+    width: 65%;
+    height: 65%;
+  }
+  @media screen and (max-width: 1420px) {
+    left: calc(15.5% + 916px);
+  }
+  @media screen and (max-width: 1420px) {
+    left: calc(15.5% + 916px);
+  }
+  @media screen and (max-width: 1284px) {
+    left: calc(15.5% + 856px);
+  }
+  @media screen and (max-width: 1196px) {
+    left: calc(15.5% + 826px);
+  }
+  @media screen and (max-width: 1154px) {
+    left: calc(15.5% + 806px);
+    width: 80%;
+  }
+  @media screen and (max-width: 1132px) {
+    left: calc(15.5% + 676px);
+    width: 30%;
+  }
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+
+.img-1 {
+  @media screen and (max-width: 1420px) {
+    display: none;
+  }
+}
+.img-2 {
+  display: none;
+  @media screen and (max-width: 1420px) {
+    display: block;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.sign-in-title {
+  @media screen and (max-width: 768px) {
+    font-size: 68px;
+  }
+  @media screen and (max-width: 680px) {
+    font-size: 58px;
+  }
+  @media screen and (max-width: 580px) {
+    font-size: 48px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 42px;
+  }
+  @media screen and (max-width: 1080px) {
+    margin: 0 auto;
+  }
+}
+
+.sign-in-container {
+  margin: 200px 0 0 -0.21px;
+  position: relative;
+  width: 485.21px;
+  @media screen and (max-width: 1080px) {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    margin: 125px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  @media screen and (max-width: 480px) {
+    margin: 100px 0;
+  }
+  @media screen and (max-width: 425px) {
+    margin: 50px 0;
+  }
+
+  button {
+    border: 1.58px solid;
+    border-image-source: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 29.17%
+    );
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 6.32px 12.64px 0px rgba(66, 53, 107, 0.1);
+    padding: 8px 0;
+    border-radius: 6.32px;
+    width: 291px;
+    color: rgba(66, 53, 107, 1);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    position: absolute;
+    top: 100%;
+
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    @media screen and (max-width: 425px) {
+      margin-bottom: 200px;
+    }
+  }
+}
+
+.sign-in-link {
+  background: #ffffff;
+  border: 1.58px solid rgba(142, 56, 235, 1);
+  border-radius: 3.95px;
+  height: 56.9px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  color: rgba(21, 35, 71, 1);
+
+  a {
+    display: flex;
+    margin-left: 25.29px;
+  }
+
+  span {
+    width: 209px;
+    height: 26px;
+  }
+
+  img {
+    width: 25.29px;
+    height: 25.29px;
+    margin-right: 25.29px;
+  }
+}
+
+.apple-icon {
+  width: 23.61px;
+  height: 27.78px;
+  margin-left: 2.08px;
+}
+
+.tiktok-icon {
+  width: 22.57px;
+  height: 26.04px;
+  margin: 0.87px 0 0 2.6px;
+}
+
+.sign-in-lines {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 485px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+  p {
+    font-weight: 700;
+    height: 24px;
+    width: 31.93px;
+    text-wrap: nowrap;
+    margin-bottom: 3px;
+    @media screen and (max-width: 768px) {
+      letter-spacing: -5%;
+    }
+  }
+}
+
+.line {
+  width: 201.1px;
+  height: 0.79px;
+  background: #6b58f1;
+  border: 1px solid #6b58f1;
+  @media screen and (max-width: 768px) {
+    margin-left: 24px;
+  }
+  @media screen and (max-width: 560px) {
+    margin-left: 0;
+    width: 130px;
+  }
+
+  &:nth-of-type(2) {
+    width: 200.31px;
+    @media screen and (max-width: 768px) {
+      margin-left: 0;
+      margin-right: 24px;
+    }
+    @media screen and (max-width: 560px) {
+      margin-right: 0;
+      width: 130.83px;
+    }
+  }
+}
+
+.manual-log-in {
+  width: 100%;
+
+  input {
+    width: 100%;
+    margin-bottom: 25px;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 15.8px;
+    line-height: 25.29px;
+  }
+}
+
+.password-input-container {
+  position: relative;
+  img {
+    position: absolute;
+    left: calc(100% - 24px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  width: 482px;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.check-box {
+  input {
+    margin-right: 12.64px;
+    width: 14.22px;
+    height: 14.22px;
+    background: rgba(255, 255, 255, 1);
+  }
+}
+
+.sign-in-pop-up {
+  line-height: 88px;
+  background: linear-gradient(
+    180deg,
+    rgba(153, 70, 243, 0.8) 0%,
+    rgba(66, 53, 107, 0.8) 100%
+  );
+  border-radius: 32px;
+  position: absolute;
+  top: 75%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 8px 16px 0px rgba(66, 53, 107, 0.1);
+  padding: 104px 240px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  text-wrap: nowrap;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @media screen and (max-width: 1080px) {
+    top: 49.4%;
+    left: 50%;
+    width: 100%;
+    border-radius: 0;
+    height: 100vh;
+  }
+
+  @media screen and (max-width: 526px) {
+    font-size: 40px !important;
+  }
+}
+
+.sign-in-pop-up-title {
+  font-weight: 900;
+  font-size: 64px;
+  margin-bottom: 40px;
+  @media screen and (max-width: 526px) {
+    font-size: 44px !important;
+  }
+}
+
+.sign-in-pop-up-text {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 80px;
+  @media screen and (max-width: 526px) {
+    font-size: 24px !important;
+  }
+}
+
+.sign-in-pop-up-button {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(66, 53, 107, 1);
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 29.17%
+  );
+  box-shadow: 0px 8px 16px 0px rgba(66, 53, 107, 0.1);
+  border-radius: 8px;
+  padding: 8px 34px;
+  width: auto;
+
+  &:hover {
+    background-color: #74a2a1;
+    color: #ffffff;
+  }
+  @media screen and (max-width: 526px) {
+    font-size: 20px !important;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:wght@300;400;500;700&display=swap");
+.asterix {
+  font-weight: 500;
+  font-size: 22.13px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}

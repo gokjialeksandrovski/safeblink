@@ -1,0 +1,96 @@
+- Initial Page - "Join Us"
+
+    The left side displays the login fields, while the right side features an image.
+
+    The social media connection fields on this page are non-functional.
+
+    The logo and navigation bar links on this page do not work, as the platform initially requires you to log in. The exception is the "Log In" link, which directly takes you to the login fields below on the page.
+
+    The footer links are also non-functional on this page.
+
+    You can log in to the platform using one of the following three combinations of username and password:
+        Username: User123, Password: Pass123
+        Username: User456, Password: Pass456
+        Username: User789, Password: Pass789
+
+    Enter one of these combinations into the "Username *" and "Password *" input fields. Then, click the "Log In" button to sign in.
+
+    Upon logging in, you will see a "Welcome!" window informing you that you have successfully logged in. Click the "Proceed to Safeblink" button to enter the platform, landing on the first page titled "Inform and Protect Yourself".
+
+- Post-Login Navigation
+
+    Once logged in, the logo and all navigation bar links become functional and serve the same purpose across all available pages of the platform. These links facilitate easy and quick navigation throughout the platform. Clicking the logo takes you to the first page, "Inform and Protect Yourself".
+        The first link, "Inform Yourself," takes you to the second page titled "Everything You Need to Know."
+        The second link, "Discussions," takes you to the third page titled "Discussion Board."
+        The third link, "Contact," takes you to the fourth page titled "Contact."
+        The fourth link, "Profile," takes you to the fifth page titled "Profile."
+        Clicking your generated profile picture allows you to log out of the platform via the "Log Out" button. The last two buttons are still unavailable for use.
+
+    On mobile and tablet devices, the profile picture and links function exactly the same but are hidden in a "Hamburger Menu" located at the end of the navigation bar. Clicking it reveals all links and the profile picture.
+
+- Footer
+
+- Page Titled "Inform and Protect Yourself" (First Page)
+    The footer consists of the Safeblink logo, a description of its function, and contact details on the left side. The links in the footer, located in the center, also serve for platform navigation. The "Inform Yourself," "Discussions," and "Contact" links are identical to those in the navigation bar and lead to the same pages.
+        The "Data Protection Act" link leads to the "Profile" page.
+        The social media links on the right side of the footer direct you to the login pages of the respective social networks.
+        Also on the right side are a non-functional bilingual button, a link to the Safeblink website, and a copyright notice. On mobile and tablet devices, all these elements are displayed in a column from top to bottom.
+
+    Video Viewing:
+        You can watch a video related to the theme of Safeblink, i.e., "Security". The video can be played by clicking the gray button that looks like a classic "Play button" located in the center of the video itself.
+        Once the video finishes, you have the option to play it again in the same way or leave it off.
+
+    Cards with Titles:
+        There are three cards with the titles: "Learn Everything You Need to Know", "Join the Discussion", and "Track Your Progress". Each card has an identical "Learn More" button.
+        The button on the first card leads you to the page titled "Everything You Need to Know".
+        The button on the second card leads you to the page titled "Discussion Board".
+        The button on the third card leads you to the page titled "Profile".
+
+- Page Titled "Everything You Need to Know" (Second Page)
+
+    Design Elements:
+        The small titles "Videos", "Guides", and "Articles" are displayed as part of the design and have no functionality. On mobile or tablet, you can switch between these titles to choose which one is displayed.
+
+    Filters:
+        Below the small titles, on larger screens, you will see 14 filters. The first three filters, "Most Watched", "Trending", and "Newest", when clicked, show four cards each (out of a possible 16) selected according to the filter's name.
+        You can also combine these three filters if desired. The other 11 filters are non-functional and cannot be seen on smaller screens (tablets and mobiles).
+
+    Video Cards:
+        Below the filters, there are 16 cards with a title and publication date. When the mouse pointer is over them or on touch, they display a gray "Play button" identical to the video on the first page.
+        Clicking it displays a window with the title of the video selected according to the card’s theme, a description of that video, and user comments about it. You can also leave a comment by clicking the "Leave a comment..." button. All this is on the left side of the window.
+        On the right side is the actual video that you can watch by clicking the white "play button" in the center of the video.
+        Once the video finishes, you can watch it again or leave it off.
+        In the upper right corner, there are "up arrow" and "down arrow" buttons that allow you to scroll through all comments when clicked, and an "X" button that closes this window when clicked.        
+
+- Page Titled "Discussion Board" (Third Page)
+
+    Discussion Cards:
+        This page features discussion cards that display the discussion topic, the profile of the user who posted it, and a comment input field with reactions, which are displayed only for design purposes and are non-functional.
+
+    Adding a Discussion:
+        You can add a discussion by clicking the "Share your experience..." button located in the gray window at the top of the page. Cards without text are automatically deleted upon refreshing the page.
+        To select a color for the discussion, click the "Choose color" button and select one of the available colors.
+        To enter text in the discussion, click in the gray field of the newly added discussion card with the text "Enter text...". This opens a window where you can type your text. Once finished, click the "Share" button to successfully create your discussion.
+
+    "+ See More" Button:
+        The "+ See More" button has no functionality.
+
+- Page Titled "Contact"
+
+    This page has no functional elements. You can only view its design, which consists of the small titles "Seek Professional Help" and "Invalid Organizations". There are also 4 cards with titles, text, and buttons that complement the design.
+
+- Page Titled "Profile" (Fifth Page)
+
+    Profile Information:
+        On this page, you can view your profile. On the left side, your profile picture is displayed. On the right side, your username, email address, password, year of birth, and gender are shown.
+        You can change all your profile information except for the profile picture and password. To do this, click the "edit" button that appears when you hover the mouse pointer over the field you want to change.
+        Once you do this, the field turns white, allowing you to enter new text. On the right side of the field, a "checkmark" and an "X" appear. Clicking the "X" discards the changes, reverting to the previous value. Clicking the "checkmark" saves the changes, which are then reflected across the Safeblink platform wherever that data is displayed. All fields are changed in the same way.
+
+    Progress Tracking:
+        Below the profile, there are two small titles, "Track Your Progress" and "Current Level: Lorem Ipsum", which display a gray progress bar with progress shown in green. This is purely for design purposes and does not change.
+
+    Badges:
+        At the bottom of the page, below the progress bar, there are badges. The titles of the badges are self-explanatory. Initially, only the "Joined" badge is displayed. Other badges can be displayed based on your activities.
+        The "Active in Discussion" badge appears if you post at least one discussion. If you watch five videos, the "Watched 5 Videos" badge appears. The "Watched 10 Videos" badge appears after watching ten videos, and the "Watched 20 Videos" badge appears after watching twenty videos.
+
+The above text covers the complete setup, functionality, and design of the Safeblink platform.        
